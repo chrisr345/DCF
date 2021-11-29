@@ -149,9 +149,9 @@ def enterprise_value(income_statement, cashflow_statement, balance_statement, pe
         enterprise value
     """
     # XXX: statements are returned as historical list, 0 most recent
-    breakpoint()
+    # breakpoint()
     ebit = float(income_statement[0]['Gross Profit'])
-    ebit -= 
+    # ebit -= 
     tax_rate = float(income_statement[0]['Income Tax Expense']) /  \
                float(income_statement[0]['Earnings before Tax'])
     non_cash_charges = float(cashflow_statement[0]['Depreciation & Amortization'])
