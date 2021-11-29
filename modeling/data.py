@@ -18,6 +18,7 @@ def get_api_url(requested_data, ticker, period, apikey):
             requested_data=requested_data, ticker=ticker, apikey=apikey)
     else:
         raise ValueError("invalid period " + str(period))
+    print(url)
     return url
 
 

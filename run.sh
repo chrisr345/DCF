@@ -1,0 +1,1 @@
+python main.py --t AAPL --i 'quarter' --y 3 --eg .15 --steps 2 --s 0.1 --v eg --apikey 982cd2ef44c992e99bca73898a0fbbea
